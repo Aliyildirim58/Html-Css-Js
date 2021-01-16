@@ -1,0 +1,59 @@
+body{
+	 background-repeat :no-repeat;
+	 height: 100%;
+	 background-size: cover;
+	
+
+}
+.genel{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: calc(100vw - 50px);
+    margin:0 auto;
+
+
+}
+.logolar{
+
+	display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: 20px auto;
+
+
+}
+.logolar p{
+	margin: 0;
+
+}
+.navbar-brand{
+      width: 450px;
+      height: 40px;
+}
+.navbar.navbar-expand-lg.navbar{
+    background-color: #26272b
+    
+}
+.nav-link{
+    color: #5F05A6!important;
+}
+#galeri{ 
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ width: calc(100vw - 50px);
+ 
+ margin: 0 auto;
+ 
+
+}
+#galeri .card{
+margin-bottom: 10px;
+}
+.container-fluid{
+ grid-template-rows: 100vh;
+}
+
+    
+
